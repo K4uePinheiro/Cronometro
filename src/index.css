@@ -1,0 +1,66 @@
+*{
+    margin: 0vw;
+    padding: 0px;
+    box-sizing: 0px 0px;
+}
+.container{
+    
+    width: 100vw;
+    height:100vh;
+    background: linear-gradient(35deg, red, #6b6969);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;  
+    position: relative;
+}
+.projeto{
+    
+    font-size: 40px;
+    font-family: Vampire War;
+    position: relative;
+    bottom: 90px;
+}
+
+.timer{
+    text-align: center;
+    font-size: 60px;
+    font-family: Vampire Wars;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 80px;
+    border: solid;
+    box-shadow: 5px 5px 5px;
+    border-radius: 40px;
+    
+}
+    
+
+.botoes > button{
+    cursor: pointer;
+
+}
+.botoes{
+   text-align: center;
+  
+}
+.botao{
+    padding: 10px 20px;
+    font-size: 30px;
+    border-radius: 20px;
+}
+.botao2{
+    font-size: 30px;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+.botao3{
+    font-size: 30px;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+.botoes :hover{
+    
+    background-color: red;
+
+}
